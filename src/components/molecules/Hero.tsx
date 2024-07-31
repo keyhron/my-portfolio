@@ -18,8 +18,8 @@ const Hero = () => {
             <h1
               className={`font-urbanist font-bold text-lg xl:text-4xl text-slate-800 dark:text-slate-200 tracking-wide w-11/12`}
             >
-              Hi, I&apos;m Juan, a web and mobile developer with 5 years of
-              experience
+              Hi, I&apos;m Juan, I&apos;m a web and mobile developer with 5
+              years of experience
             </h1>
             <p
               className={`font-foundation text-slate-500 dark:text-slate-400 mt-4 text-xs lg:text-base font-medium w-11/12`}
