@@ -41,7 +41,7 @@ export default function Home() {
           className="p-8 xl:p-10 justify-between w-full flex flex-col"
           classNameContainer="mt-3"
         >
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-3 w-full">
             <p
               className={`font-foundation text-slate-800 dark:text-white mb-3 text-xs xl:text-lg font-medium`}
             >
@@ -88,4 +88,3 @@ export default function Home() {
     </>
   );
 }
-

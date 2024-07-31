@@ -6,11 +6,11 @@ import Button from "@/components/atoms/Button";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col-reverse sm:grid sm:grid-cols-[60%_40%] h-full gap-3">
+    <section className="flex flex-col-reverse sm:grid sm:grid-cols-[calc(60%-12px)_40%] h-full gap-3">
       {/* Left side */}
       <div className="flex flex-col gap-3 h-full">
         <CardGlass
-          className="p-8 xl:p-10 w-full flex flex-col h-full justify-between h-full"
+          className="p-8 xl:p-10 w-full flex flex-col justify-between h-full"
           classNameContainer="h-full"
           dotsPink
         >
@@ -18,16 +18,18 @@ const Hero = () => {
             <h1
               className={`font-urbanist font-bold text-lg xl:text-4xl text-slate-800 dark:text-slate-200 tracking-wide w-11/12`}
             >
-              Hi, I&apos;m Juan, a web and mobile developer with 4 years of
+              Hi, I&apos;m Juan, a web and mobile developer with 5 years of
               experience
             </h1>
             <p
               className={`font-foundation text-slate-500 dark:text-slate-400 mt-4 text-xs lg:text-base font-medium w-11/12`}
             >
-              I am a big fan of web development and technology. I am completely
-              passionate about everything I do so that it is the best of the
-              best, I am creative, fun and I assure you that I will make you
-              smile if you meet me.
+              I&apos;m a big fan of web development and technology. I&apos;m
+              passionate about working as a front end developer and I always
+              make sure that what I develop is perfect. I&apos;m great at
+              working in a team and I adjust to everything you need. I&apos;m a
+              Senior Front End Developer with more than five year of work
+              experience.
             </p>
             <p
               className={`font-foundation text-slate-500 dark:text-slate-400 mt-4 text-xs lg:text-base font-medium w-11/12`}
@@ -74,7 +76,7 @@ const Hero = () => {
             <path d="M3 4m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
           </svg>
           <h2 className="font-urbanist font-bold text-xs lg:text-sm ml-3 text-slate-800 dark:text-slate-200">
-            Fullstack Web and Mobile Developer
+            Front End Web and Mobile Developer
           </h2>
         </CardGlass>
 
@@ -111,7 +113,7 @@ const Hero = () => {
                 Age:
               </h4>
               <h3 className="font-urbanist font-medium text-xs lg:text-sm text-slate-800 dark:text-slate-200">
-                22 years
+                23 years
               </h3>
             </CardGlass>
             <CardGlass
@@ -142,4 +144,3 @@ const Hero = () => {
 };
 
 export default Hero;
-

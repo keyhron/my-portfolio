@@ -55,7 +55,7 @@ const Navbar = () => {
           </button>
           <button
             onClick={toggleMenu}
-            className="h-6 w-6 hover:dark:text-slate-100 bg-slate-900 dark:bg-slate-200 rounded-full flex flex-col items-center justify-center sm:hidden"
+            className="h-6 w-6 hover:dark:text-slate-100 bg-slate-900 dark:bg-slate-200 rounded-full flex flex-col items-center justify-center md:hidden"
           >
             {isOpen ? (
               <IoCloseOutline
@@ -77,7 +77,7 @@ const Navbar = () => {
         <p
           className={`font-foundation text-slate-200 dark:text-slate-800 text-sm xl:text-xl`}
         >
-          Looking for a fullstack web or mobile developer?
+          Looking for a front end web or mobile developer?
         </p>
       </div>
     </>
@@ -85,4 +85,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
