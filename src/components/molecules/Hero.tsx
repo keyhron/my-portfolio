@@ -27,8 +27,7 @@ const Hero = () => {
               I&apos;m a big fan of web development and technology. I&apos;m
               passionate about working as a Front End Developer and I always
               make sure that what I develop is perfect. I&apos;m great at
-              working in a team and I adjust to everything you need. I&apos;m a
-              Front End Developer with more than five year of work experience.
+              working in a team and I adjust to everything you need.
             </p>
             <p
               className={`font-foundation text-slate-500 dark:text-slate-400 mt-4 text-xs lg:text-base font-medium w-11/12`}
