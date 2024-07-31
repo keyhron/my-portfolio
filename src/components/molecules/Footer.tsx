@@ -13,7 +13,7 @@ import { FaXTwitter } from "react-icons/fa6";
 // Data
 const contactInfo = [
   {
-    href: "https://www.twitter.com/juanbs",
+    href: "https://www.twitter.com/keyhron",
     Icon: FaXTwitter,
   },
   {
@@ -87,4 +87,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
