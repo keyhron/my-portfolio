@@ -73,7 +73,7 @@ const Hero = () => {
             <path d="M3 4m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
           </svg>
           <h2 className="font-urbanist font-bold text-xs lg:text-sm ml-3 text-slate-800 dark:text-slate-200">
-            Front End Web and Mobile Developer
+            Front End Developer
           </h2>
         </CardGlass>
 
@@ -81,7 +81,7 @@ const Hero = () => {
           <div className="w-full h-full bg-center bg-cover rounded-2xl">
             <Image
               className={`w-full h-full object-cover transition-all ease-out duration-[400ms] object-center rounded-2xl`}
-              src="/images/profile.jpg"
+              src="/images/profile.jpeg"
               alt="profile"
               width={300}
               height={300}

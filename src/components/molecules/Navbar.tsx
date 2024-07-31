@@ -77,7 +77,7 @@ const Navbar = () => {
         <p
           className={`font-foundation text-slate-200 dark:text-slate-800 text-sm xl:text-xl`}
         >
-          Looking for a front end web or mobile developer?
+          Looking for a front end developer?
         </p>
       </div>
     </>
