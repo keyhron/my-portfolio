@@ -18,23 +18,21 @@ const Hero = () => {
             <h1
               className={`font-urbanist font-bold text-lg xl:text-4xl text-slate-800 dark:text-slate-200 tracking-wide w-11/12`}
             >
-              Hi, I&apos;m Juan, I&apos;m a web and mobile developer with 5
-              years of experience
+              Hi, I&apos;m Juan, I&apos;m a Front End Developer with 5 years of
+              experience
             </h1>
             <p
               className={`font-foundation text-slate-500 dark:text-slate-400 mt-4 text-xs lg:text-base font-medium w-11/12`}
             >
               I&apos;m a big fan of web development and technology. I&apos;m
-              passionate about working as a front end developer and I always
+              passionate about working as a Front End Developer and I always
               make sure that what I develop is perfect. I&apos;m great at
               working in a team and I adjust to everything you need. I&apos;m a
-              Senior Front End Developer with more than five year of work
-              experience.
+              Front End Developer with more than five year of work experience.
             </p>
             <p
               className={`font-foundation text-slate-500 dark:text-slate-400 mt-4 text-xs lg:text-base font-medium w-11/12`}
             >
-              {/* I&apos;m 22 years old and I&apos;m from Venezuela.  */}
               If you are interested in seeing my Curriculum,{" "}
               <a
                 href="/pdf/cv.pdf"
