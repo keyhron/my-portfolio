@@ -1,4 +1,5 @@
 import {
+  SiJavascript,
   SiTypescript,
   SiReact,
   SiFlutter,
@@ -11,6 +12,11 @@ import {
 } from "react-icons/si";
 
 export const technologiesMain = [
+  {
+    name: "Javascript",
+    Icon: SiJavascript,
+    bgColor: "#c4aa02",
+  },
   {
     name: "TypeScript",
     Icon: SiTypescript,
@@ -37,7 +43,7 @@ export const technologiesMain = [
     bgColor: "#4ea7ce",
   },
   {
-    name: "Node with Express",
+    name: "Node",
     Icon: SiNodedotjs,
     bgColor: "#719c0c",
   },
@@ -65,4 +71,3 @@ export const technologiesLearn = [
     bgColor: "#34815f",
   },
 ];
-

@@ -17,4 +17,3 @@ export const fontUrbanist = Urbanist({
   weight: ["400", "700", "900"],
   variable: "--font-urbanist",
 });
-

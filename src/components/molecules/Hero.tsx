@@ -22,7 +22,7 @@ const Hero = () => {
               experience
             </h1>
             <p
-              className={`font-foundation text-slate-500 dark:text-slate-400 mt-4 text-xs lg:text-base font-medium w-11/12`}
+              className={`text-slate-500 dark:text-slate-400 mt-4 text-sm lg:text-lg font-medium w-11/12`}
             >
               I&apos;m a big fan of web development and technology. I&apos;m
               passionate about working as a Front End Developer and I always
@@ -30,7 +30,7 @@ const Hero = () => {
               working in a team and I adjust to everything you need.
             </p>
             <p
-              className={`font-foundation text-slate-500 dark:text-slate-400 mt-4 text-xs lg:text-base font-medium w-11/12`}
+              className={`text-slate-500 dark:text-slate-400 mt-4 text-sm lg:text-lg font-medium w-11/12`}
             >
               If you are interested in seeing my Curriculum,{" "}
               <a

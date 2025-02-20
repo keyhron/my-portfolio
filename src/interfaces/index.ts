@@ -7,8 +7,8 @@ export interface IProject {
   };
   image: string;
   login?: {
-    email: "correo@correo.com";
-    password: "123123";
+    email: string;
+    password: string;
   };
 }
 
